@@ -3,7 +3,7 @@
 /* Add this to your global CSS file (styles.css or Tailwind @layer) */
 ::-webkit-scrollbar {
     width: 10px; /* Width of the scrollbar */
-    margin-left: 3px;
+    margin-left: 10px;
   }
   
   ::-webkit-scrollbar-track {
