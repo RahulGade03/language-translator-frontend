@@ -13,10 +13,10 @@
   ::-webkit-scrollbar-thumb {
     background: #55b99b; /* Scrollbar thumb color */
     border-radius: 10px;
-    border: 2px solid #0B251D; /* Adds padding effect */
+    border: 2px solid #55b99b; /* Adds padding effect */ /*#0B251D*/
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: #0D2B20; /* Slightly lighter green on hover */
+    background:  #0B251D; /* #0D2B20  Slightly lighter green on hover */
   }
   
