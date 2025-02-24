@@ -6,12 +6,12 @@
   }
   
   ::-webkit-scrollbar-track {
-    background: #55b99b; /* Darker green track */
+    background: #081C15;
     border-radius: 5px;
   }
   
   ::-webkit-scrollbar-thumb {
-    background: #081C15; /* Scrollbar thumb color */
+    background: #55b99b; /* Scrollbar thumb color */
     border-radius: 10px;
     border: 2px solid #0B251D; /* Adds padding effect */
   }
