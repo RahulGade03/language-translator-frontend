@@ -2,8 +2,8 @@
 
 /* Add this to your global CSS file (styles.css or Tailwind @layer) */
 ::-webkit-scrollbar {
-    width: 10px; /* Width of the scrollbar */
-    margin-left: 10px;
+    width: 10px;
+    box-shadow: inset 5px 0 0 #081C15;
   }
   
   ::-webkit-scrollbar-track {
@@ -12,12 +12,12 @@
   }
   
   ::-webkit-scrollbar-thumb {
-    background: #55b99b; /* Scrollbar thumb color */
+    background: #D8F3DC;
     border-radius: 10px;
-    border: 2px solid #55b99b; /* Adds padding effect */ /*#0B251D*/
+    border: 2px solid #D8F3DC;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background:  #0B251D; /* #0D2B20  Slightly lighter green on hover */
+    background:  #0B251D;
   }
   
