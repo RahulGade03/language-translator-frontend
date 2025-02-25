@@ -19,7 +19,7 @@ function App() {
 
   useEffect(() => {
     async function run() {
-      const data = await fetch('https://language-translator-backend-rose.vercel.app/history')
+      const data = await fetch('https://language-translator-backend-rhnqx3mpy.vercel.app/history')
       const data1 = await data.json()
       // console.log('data1: ', data1)
       setHistList(data1)
@@ -61,7 +61,7 @@ function App() {
       body: JSON.stringify({ searched: fromText })
     });
 
-    const data = await fetch('https://language-translator-backend-rose.vercel.app/history')
+    const data = await fetch('https://language-translator-backend-j27hw78vl.vercel.app/history')
     const data1 = await data.json()
     // console.log('data1: ', data1)
     setHistList(data1)
