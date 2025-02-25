@@ -19,7 +19,7 @@ function App() {
 
   useEffect(() => {
     async function run() {
-      let data = await fetch('https://language-translator-backend-l6x9r5pos.vercel.app/history')
+      let data = await fetch('https://language-translator-backend-rose.vercel.app/history')
       const data1 = await data.json()
       // console.log('data1: ', data1)
       setHistList(data1)
@@ -55,13 +55,13 @@ function App() {
     setToText('Translating...')
     let a = await fetchData()
     setToText(a);
-    const hist = await fetch('https://language-translator-backend-l6x9r5pos.vercel.app/history', {
+    const hist = await fetch('https://language-translator-backend-rose.vercel.app/history', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ searched: fromText })
     });
 
-    const data = await fetch('https://language-translator-backend-l6x9r5pos.vercel.app/history')
+    const data = await fetch('https://language-translator-backend-rose.vercel.app/history')
     const data1 = await data.json()
     // console.log('data1: ', data1)
     setHistList(data1)
