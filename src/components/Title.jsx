@@ -2,7 +2,7 @@ import React from 'react'
 
 const Title = () => {
   return (
-    <h1 className='font-bold bg-[#1B4332] text-white my-4 rounded-3xl p-2 text-3xl select-none'>GOAT LANGUAGE TRANSLATOR</h1>
+    <h1 className='font-bold bg-[#212529] text-white my-4 rounded-3xl p-2 text-3xl select-none'>GOAT LANGUAGE TRANSLATOR</h1>
   )
 }
 

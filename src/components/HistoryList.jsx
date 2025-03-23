@@ -5,7 +5,7 @@ const HistoryList = ({histList}) => {
   return (
     histList.map((obj) => {
         return (
-            <li key={uuidv4()} className='bg-[#D8F3DC] text-black m-2 rounded-2xl p-2 w-[100%]'>{obj.searched} ({obj.date}) </li>
+            <li key={uuidv4()} className='bg-[#dee2e6] text-black m-2 rounded-2xl p-2 w-[100%]'>{obj.searched} ({obj.date}) </li>
         )
     })
   )

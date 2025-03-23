@@ -51,7 +51,7 @@ const Languages = () => {
     return (
         languages.map((obj) => {
             return(
-                <option key={uuidv4()} value={obj.code} className='bg-[#1B4332] scroll'>{obj.language}</option>
+                <option key={uuidv4()} value={obj.code} className='bg-[#212529] scroll'>{obj.language}</option>
             )
         })
     )
